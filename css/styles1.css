@@ -1,0 +1,50 @@
+body{font-size:16px;
+	color: #fff;
+	background-color: #61122f;
+	font-family: 'Oxygen', sans-serif;
+}
+/*HEADER*/
+#header-nav{background-color: #f6b319;
+border-radius: 0;
+border:0;
+/*height: 50px;*/}
+.img-responsive{width:50px;
+height: 50px;
+margin:height: 50px 0px;}
+.navbar-brand{padding-top: 0px;}
+.navbar-brand h1{/*Restaurant name*/
+font-family: 'Lora',serif;
+color:#557c3e;
+font-size: 1.5em;
+text-transform: uppercase;
+font-weight: bold;
+text-shadow: 1px 1px 1px #222;
+margin-top: 0;
+margin-bottom:0;
+line-height: .75}
+
+.navbar-brand a:hover,.navbar-brand a:focus{text-decoration: none;}
+.navbar-brand span{/*kocher cert*/
+color:#000;
+text-transform: uppercase;
+font-size: .7em;
+margin-top: 15px;}
+
+]@media(min-width: 768px){
+	.navbar >.container .navbar-brand,
+	.navbar >.container-fluid .navbar-brand 
+	.navbar-header{margin-left: -15px;}
+}
+
+
+@media(min-width: 768px){
+	.navbar-toggler{display: none;}
+}
+.container{margin-left: 0;
+margin-right: 0;}
+
+#phone{margin-top: 5px;
+text-align: right;
+padding-bottom: 0;
+}
+
